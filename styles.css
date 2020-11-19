@@ -92,7 +92,7 @@ h1 {
     height: 129px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url("img/logo.jpg");
+    background-image: url("img/logo.jpg");
 }
 
 #social {
@@ -119,4 +119,21 @@ h1 {
 #email {
     margin-top: 12px;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        width: 300px;
+        height: 77px;
+        background-image: url("img/logo-mobile.jpg");
+    }
+
+    #social li {
+        padding: 0 9px;
+    }
+
+    #social img {
+        width:35px;
+        height: 35px;
+    }
 }
