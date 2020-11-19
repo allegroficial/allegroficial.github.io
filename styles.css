@@ -105,7 +105,7 @@ h1 {
 }
 
 #social img {
-    filter: brightness(0%);
+    filter: brightness(75%);
     transition: 1s;
 }
 
@@ -118,7 +118,7 @@ h1 {
 
 #email {
     margin-top: 12px;
-    font-size: 20px;
+    font: 18px Verdana;
 }
 
 @media (max-width: 768px) {
