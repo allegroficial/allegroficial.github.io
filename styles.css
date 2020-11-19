@@ -49,6 +49,10 @@ table {
 
 /* ALLEGRO */
 
+@-ms-viewport{
+    width: device-width;
+  }
+
 html, body {
     height:100%
 }
